@@ -11,7 +11,7 @@
 <ul>
     <li th:each="task : ${tasks}">
         <b th:text="${task.description}"></b>
-        (Источник: <i th:text="${task.source}"></i>)
+        (Source: <i th:text="${task.source}"></i>)
     </li>
 </ul>
 </body>
